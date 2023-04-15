@@ -45,6 +45,17 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
+Today, suicide is a global problem that concerns many countries, including Turkey. According to the Turkish Statistical Institute (TUIK), 3,755 people died by suicide in Turkey in 2019, and 70.7% of the cases were men. Suicide is a psychological issue and can occur for different reasons. However, studies suggest that education level may be one of the factors affecting suicide rates.
+
+There is an inverse correlation between education level and suicide rates in Turkey. According to the previously mentioned TUIK report, people with higher levels of education have a lower risk of suicide. While the suicide rate is 31.7% for those with primary school education and below, it is 7.5% for those with higher education. This statistic is in line with studies conducted in other countries that show that education level is inversely proportional to suicide rates.
+
+One of the few reasons why education level influences suicide rates is that education has an impact on mental health. For example, training can improve coping skills. Also, people with higher levels of education are more likely to have better job opportunities, higher income, and a social space where they can get away from stress and negativity.
+
+
+In conclusion, education level may be a factor affecting suicide rates, and higher education levels may be associated with lower suicide rates.
+
+## Literature Review
+
 Suicide statistics in Turkey may vary depending on certain factors. There are research and reports made by the Turkish Statistical Institute (TUIK) on this subject. According to TURKSTAT's 2019 "Cause of Death Statistics" report, a total of 3,755 people committed suicide in Turkey in 2019, of which 70.7% were male and 29.3% were female.
 
 If we analyze this report by education level:
@@ -52,13 +63,9 @@ If we analyze this report by education level:
 Suicide cases in primary school graduates and below: 31.7%
 Suicide cases among secondary school graduates: 30.3%
 Suicide cases among high school graduates: 22.5%
-Suicide cases among university graduates: 7.5%
+Suicide cases among university graduates: 7.5% [@ozcan2018turkiye]
 
-According to these data, suicide rates decrease as the level of education increases in Turkey. These statistics show that education plays an important role in people's psychological health.
-
-## Literature Review
-
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+According to these data, suicide rates decrease as the level of education increases in Turkey. These statistics show that education plays an important role in people's psychological health. [@dumbrava2016relation]
 
 
 

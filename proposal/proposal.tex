@@ -1,0 +1,172 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  12pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\usepackage{booktabs}
+\usepackage{caption}
+\captionsetup[table]{skip=10pt}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={SUICIDE STATISTICS BY EDUCATIONAL LEVEL IN TURKEY},
+  pdfauthor={Kul, Sılanur Ayşen},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{SUICIDE STATISTICS BY EDUCATIONAL LEVEL IN TURKEY}
+\author{Kul, Sılanur Ayşen\footnote{19080406, \href{https://github.com/silakul/midterm}{Github Repo}}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{important-information-about-midterm}{%
+\section{Important Information About Midterm}\label{important-information-about-midterm}}
+
+\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 35 IN THIS FILE!}
+
+\textbf{Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.}
+
+\textbf{You must upload your project folder (\texttt{YourStudentID.zip} file) to \emph{ekampus.ankara.edu.tr} until 16 April 2023, 23:59.}
+
+\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+Today, suicide is a global problem that concerns many countries, including Turkey. According to the Turkish Statistical Institute (TUIK), 3,755 people died by suicide in Turkey in 2019, and 70.7\% of the cases were men. Suicide is a psychological issue and can occur for different reasons. However, studies suggest that education level may be one of the factors affecting suicide rates.
+
+There is an inverse correlation between education level and suicide rates in Turkey. According to the previously mentioned TUIK report, people with higher levels of education have a lower risk of suicide. While the suicide rate is 31.7\% for those with primary school education and below, it is 7.5\% for those with higher education. This statistic is in line with studies conducted in other countries that show that education level is inversely proportional to suicide rates.
+
+One of the few reasons why education level influences suicide rates is that education has an impact on mental health. For example, training can improve coping skills. Also, people with higher levels of education are more likely to have better job opportunities, higher income, and a social space where they can get away from stress and negativity.
+
+In conclusion, education level may be a factor affecting suicide rates, and higher education levels may be associated with lower suicide rates.
+
+\hypertarget{literature-review}{%
+\subsection{Literature Review}\label{literature-review}}
+
+Suicide statistics in Turkey may vary depending on certain factors. There are research and reports made by the Turkish Statistical Institute (TUIK) on this subject. According to TURKSTAT's 2019 ``Cause of Death Statistics'' report, a total of 3,755 people committed suicide in Turkey in 2019, of which 70.7\% were male and 29.3\% were female.
+
+If we analyze this report by education level:
+
+Suicide cases in primary school graduates and below: 31.7\%
+Suicide cases among secondary school graduates: 30.3\%
+Suicide cases among high school graduates: 22.5\%
+Suicide cases among university graduates: 7.5\% (\protect\hyperlink{ref-ozcan2018turkiye}{Özcan et al., 2018})
+
+According to these data, suicide rates decrease as the level of education increases in Turkey. These statistics show that education plays an important role in people's psychological health. (\protect\hyperlink{ref-dumbrava2016relation}{Dumbrava et al., 2016})
+
+\textbf{References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.}
+
+\textbf{\emph{You shouldn't delete the last 3 lines. Those lines are required for References section.}}
+
+\newpage
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-dumbrava2016relation}{}}%
+Dumbrava, D. P., Radu, C. C., Tabian, D., Vesa, S. C., Fulga, I., \& Chiroban, O. (2016). The relation between suicide by chemical substances and the level of education. \emph{Rev Chim (Bucharest)}, \emph{70}, 2643--2646.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ozcan2018turkiye}{}}%
+Özcan, B., Şenkaya, S., Özdin, Y., \& Ayşegül, D. (2018). T{ü}rkiye'deki intihar vakalarinin {ç}e{ş}itli kriterlere g{ö}re istatistiksel olarak incelenmesi. \emph{Sosyal Politika {Ç}al{ı}{ş}malar{ı} Dergisi}, \emph{18}(40), 11--34.
+
+\end{CSLReferences}
+
+\end{document}
