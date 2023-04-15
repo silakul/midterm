@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "SUICIDE STATISTICS BY EDUCATIONAL LEVEL IN TURKEY"
 author: 
-  - Last Name, First Name[^1]
+  - Kul, Sılanur Ayşen[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -32,7 +32,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: 19080406, [Github Repo](https://github.com/silakul/midterm)
 
 # Important Information About Midterm
 
@@ -45,11 +45,16 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
+Suicide statistics in Turkey may vary depending on certain factors. There are research and reports made by the Turkish Statistical Institute (TUIK) on this subject. According to TURKSTAT's 2019 "Cause of Death Statistics" report, a total of 3,755 people committed suicide in Turkey in 2019, of which 70.7% were male and 29.3% were female.
 
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
+If we analyze this report by education level:
 
-In this section, mention the purpose and importance of your work in a few paragraphs.
+Suicide cases in primary school graduates and below: 31.7%
+Suicide cases among secondary school graduates: 30.3%
+Suicide cases among high school graduates: 22.5%
+Suicide cases among university graduates: 7.5%
+
+According to these data, suicide rates decrease as the level of education increases in Turkey. These statistics show that education plays an important role in people's psychological health.
 
 ## Literature Review
 
